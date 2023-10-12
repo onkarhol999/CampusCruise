@@ -1,0 +1,35 @@
+/* TeacherDetails.css */
+
+.teacher-details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+  }
+  
+  .teacher-details h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .teacher-details img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #999;
+  }
+  
+  .teacher-details p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .teacher-details p:first-child {
+    margin-top: 10px;
+  }
+  
+  .teacher-details p:last-child {
+    margin-bottom: 0;
+  }
+  

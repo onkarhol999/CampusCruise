@@ -1,0 +1,36 @@
+/* StudentRollCall.css */
+
+.student-roll-call {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+  }
+  
+  .student-roll-call button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .student-roll-call button:hover {
+    background-color: #0056b3;
+  }
+  
+  .student-roll-call div {
+    font-size: 24px;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .student-roll-call button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

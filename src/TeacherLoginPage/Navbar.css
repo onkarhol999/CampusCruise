@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo image */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Spacing between navigation items */
+  }
+  
+  .nav-links li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for navigation links */
+    font-weight: bold; /* Adjust the font weight */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Media query for responsive design (adjust as needed) */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column; /* Stack navigation items vertically on small screens */
+      gap: 10px; /* Reduce spacing between items */
+    }
+  }
+  
